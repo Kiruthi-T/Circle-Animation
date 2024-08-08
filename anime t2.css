@@ -1,0 +1,105 @@
+#rel{
+    position: relative;
+    height: 500px;
+    width: 600px;
+    animation: box 10s linear infinite;
+}
+@keyframes box{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+@keyframes c1{
+    0%{background-color: green;}
+    20%{background-color: rgb(23, 177, 238); }
+    40%{background-color:rgb(177, 2, 177); }
+    60%{background-color: rgb(73, 1, 73); }
+    80%{background-color: red;}
+    100%{background-color: saddlebrown; }
+}
+.c1{
+    position: absolute;
+    left: 150px;top: 20px;
+     background-color: green;
+    animation: c1 10s infinite;
+}
+.c2{
+    position: absolute;
+    top: 200px;left: 50px; 
+    background-color: rgb(23, 177, 238);
+    animation: c2 10s infinite;
+}
+@keyframes c2{
+    0%{background-color:  rgb(23, 177, 238);}
+    20%{background-color:rgb(177, 2, 177);}
+    40%{background-color:rgb(73, 1, 73); }
+    60%{background-color: red;}
+    80%{background-color: saddlebrown; }
+    100%{background-color: green; }
+}
+.c3{
+    position: absolute;
+    left: 150px; top: 350px;
+    background-color:rgb(177, 2, 177);
+    animation: c3 10s infinite;
+}
+@keyframes c3{
+    0%{background-color:rgb(177, 2, 177);}
+    20%{background-color:rgb(73, 1, 73);}
+    40%{background-color: red;}
+    60%{background-color: saddlebrown; }
+    80%{background-color: green; }
+    100%{background-color:  rgb(23, 177, 238);}
+
+}
+.c4{
+    position: absolute;
+    top: 350px;left: 350px;
+    background-color: rgb(73, 1, 73);
+    animation: c4 10s infinite;
+}
+@keyframes c4{
+    0%{background-color:rgb(73, 1, 73);}
+    20%{background-color: red;}
+    40%{background-color: saddlebrown; }
+    60%{background-color: green; }
+    80%{background-color:  rgb(23, 177, 238);}
+    100%{background-color:rgb(177, 2, 177);}
+}
+.c5{
+    position: absolute;
+    top: 200px; left: 450px;
+    background-color: red;
+    animation: c5 10s infinite;
+}
+@keyframes c5{
+    0%{background-color: red;}
+    20%{background-color: saddlebrown; }
+    40%{background-color: green; }
+    60%{background-color:  rgb(23, 177, 238); }
+    80%{background-color:rgb(177, 2, 177); }
+    100%{background-color:rgb(73, 1, 73);}
+}
+.c6{
+    position: absolute;
+    top: 20px;left: 350px;
+    background-color: saddlebrown;
+    animation: c6 10s infinite;
+}
+@keyframes c6{
+    0%{background-color: saddlebrown; }
+    20%{background-color: green; }
+    40%{background-color:  rgb(23, 177, 238); }
+    60%{background-color:rgb(177, 2, 177); }
+    80%{background-color:rgb(73, 1, 73);}
+    100%{background-color:red;}
+} 
+
